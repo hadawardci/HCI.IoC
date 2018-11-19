@@ -122,4 +122,4 @@ container.RegisterInstance<IFactory>(factory);
 ```
 
 ## Report Support
-To report errors, questions and suggestions go to the [link](https://www.nuget.org/packages/HCI.Core.Helper/1.0.0/ReportMyPackage)
+To report errors, questions and suggestions go to the [link](https://www.nuget.org/packages/HCI.IoC/1.0.0/ReportMyPackage)
