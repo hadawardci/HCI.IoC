@@ -98,7 +98,7 @@ var notWorking = typeof(IBar);
 var container = Activator.CreateInstance<Container>();
 Lifestyle lifestyle = Lifestyle.Singleton;
 string patternSuffix = "Repository";
-var factory = Register.RegisterFactory<Factory, IRepository>(container, lifestyle, patternSuffix, ProductNameCallback);
+var factory = Register.RegisterFactory<Factory, IRepository>(container, lifestyle, patternSuffix);
 container.RegisterInstance<IFactory>(factory);
 ```
 
@@ -109,10 +109,10 @@ container.RegisterInstance<IFactory>(factory);
 var container = Activator.CreateInstance<Container>();
 Lifestyle lifestyle = Lifestyle.Singleton;
 string patternSuffix = "Repository";
-var factory = Register.RegisterFactory<Factory, IRepository>(container, lifestyle, patternSuffix, ProductNameCallback);
+var factory = Register.RegisterFactory<Factory, IRepository>(container, lifestyle, patternSuffix, Callback);
 container.RegisterInstance<IFactory>(factory);
  ...
- private static string ProductNameCallback(Type type)
+ private static string Callback(Type type)
 {
 	var name = type.Name.Replace("Repository", string.Empty);
 	var project = type.Namespace.split(' ')[0];
