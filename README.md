@@ -1,12 +1,12 @@
 # HCI.IoC
 ![](https://img.shields.io/nuget/v/HCI.IoC.svg)
 
-[TOCM]
+
 
 ## Features
 HCI.IoC is a [NuGet library](https://www.nuget.org/api/v2/package/HCI.IoC) to help you perform the inversion of control with Simple Injector easily automatically.
 
-------------
+[TOCM]
 
 ## Getting started
 The easiest way to get started is by [installing the available NuGet packages](https://www.nuget.org/packages/HCI.IoC) and if you're not a NuGet fan then follow these steps:
