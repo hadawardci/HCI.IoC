@@ -28,6 +28,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\HCI.IoC.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PESALEXMapper.Helper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
