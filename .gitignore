@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/HCI.IoC/.vs/HCI.IoC/v14
+/src/HCI.IoC/.vs/HCI.IoC/v15
+/src/HCI.IoC/HCI.IoC/bin
+/src/HCI.IoC/HCI.IoC/obj
+/src/HCI.IoC/.vs/HCI.IoC/DesignTimeBuild
+/src/HCI.IoC/packages
